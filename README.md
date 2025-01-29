@@ -11,4 +11,10 @@ Presents a more thorough motivation behind properly accounting for spatial relat
 Most state-of-the-art approaches to spatial clustering in ST data rely on some form of Graph Neural Network. This tutorial introduces the basic ANN / autoencoder framework as well as explaining how neural networks are trained to learn the structure of data via gradient descent and back propagation. 
 
 ### Tutorial 4
-Given an autoencoder model, how can we now incorporate the spatial structure of the data? 
+Given an autoencoder model, how can we now incorporate the spatial structure of the data? ...
+
+### Tutorial 5
+Graph Convolution Neural Networks are limited by ...
+
+### Tutorial 6
+Presentation of popular methods in ST data analysis that utilize these Graph Neural Network architectures: SpaGCN and STAGATE ...
