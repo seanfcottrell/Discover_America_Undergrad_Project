@@ -23,4 +23,12 @@ Graph Attention mechanisms ... TBD
 Presentation of popular methods in ST data analysis that utilize these Graph Neural Network architectures: SpaGCN and STAGATE ... TBD
 
 ### Tutorial 8
-TBD
+Topological PCA ... TBD
+
+### Tutorial 9
+Agglomerative Clustering ... TBD
+
+### Tutorial 10
+MCIST ... TBD
+
+I think past this point we can just focus on reproducing the results needed for our end of semester presentation
