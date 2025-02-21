@@ -11,24 +11,15 @@ Presents a more thorough motivation behind properly accounting for spatial relat
 Most state-of-the-art approaches to spatial clustering in ST data rely on some form of Graph Neural Network (GNN). This tutorial introduces the basic ANN / autoencoder framework as well as explaining how neural networks are trained to learn the structure of data via gradient descent and back propagation. 
 
 ### Tutorial 4
-Given an autoencoder model, how can we now incorporate the spatial relations of the data? Ideally we would like to generate low dimensional gene expression representations that consider both the spatial structure as well as a spots gene expression levels. This motivates Graph Message Passing- the central feature of GNN models. Message passing refers to the information exchange and aggregation between spatially neighboring spots on our tissue during dimensionality reduction. 
+Given an autoencoder model, how can we now incorporate the spatial relations of the data? Ideally we would like to generate low dimensional gene expression representations that consider both the spatial structure as well as a spots gene expression levels. This motivates Graph Message Passing- the central feature of GNN models. Message passing refers to the information exchange and aggregation between spatially neighboring spots on our tissue during dimensionality reduction. Specifcally, we will introduce a basic Graph Convolution Network for ST data. 
 
 ### Tutorial 5
-Graph Convolution Neural Networks... TBD
+In this tutorial we will introduce Graph Attention mechanisms- a slightly more sophisticated graph message passing technique than GCNs and the backbone of the STAGATE method. 
 
 ### Tutorial 6
-Graph Attention mechanisms ... TBD
+Topological PCA enables cell embeddings based on multi-scale correlations among cell gene expression profiles. When paired with a consensus clustering based approach to incorporate all of the scales of cell similarity connectivity, this is a powerful tool for scRNAseq cell type identification. 
 
 ### Tutorial 7
-Presentation of popular methods in ST data analysis that utilize these Graph Neural Network architectures: SpaGCN and STAGATE ... TBD
-
-### Tutorial 8
-Topological PCA ... TBD
-
-### Tutorial 9
-Agglomerative Clustering ... TBD
-
-### Tutorial 10
-MCIST ... TBD
+MCIST pairs the power of a spatially resolved graph deep learning method with the topological PCA modeling of multi-scale cell-cell expression similarities (or, in a sense, cell interactions). We can combine tPCA with STAGATE to deliver state-of-the-art spatial domain detection. 
 
 I think past this point we can just focus on reproducing the results needed for our end of semester presentation
